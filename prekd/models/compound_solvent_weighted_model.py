@@ -20,7 +20,7 @@ from nfp import (EdgeUpdate, GlobalUpdate, NodeUpdate,
                  masked_mean_absolute_error, RBFExpansion)
 from nfp.preprocessing.mol_preprocessor import SmilesPreprocessor
 
-from src.models.base_model import (message_passing, embedding_to_output,
+from .base_model import (message_passing, embedding_to_output,
                                     dense_series, build_model as base_build_model,
                                     train_model as base_train_model,
                                     train_model_hybrid

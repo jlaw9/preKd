@@ -22,8 +22,8 @@ from sklearn import model_selection
 from sklearn.preprocessing import RobustScaler
 from tensorflow.keras.callbacks import CSVLogger, ModelCheckpoint
 
-from src.models.callbacks import PandasLogger
-from src.models.losses import hybrid_mae_bce_loss, mae_loss_cutoff, bce_loss_cutoff
+from .models.callbacks import PandasLogger
+from .models.losses import hybrid_mae_bce_loss, mae_loss_cutoff, bce_loss_cutoff
 
 
 def generate_hash(df, hash_cols=["smiles_compound"]) -> str:

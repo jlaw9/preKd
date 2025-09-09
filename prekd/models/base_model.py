@@ -20,7 +20,7 @@ from nfp import (EdgeUpdate, GlobalUpdate, NodeUpdate,
                  masked_mean_absolute_error, RBFExpansion)
 from nfp.preprocessing.mol_preprocessor import SmilesPreprocessor
 
-from src.models.losses import hybrid_mae_bce_loss, mae_loss_cutoff, bce_loss_cutoff
+from .losses import hybrid_mae_bce_loss, mae_loss_cutoff, bce_loss_cutoff
 
 
 

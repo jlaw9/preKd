@@ -1,0 +1,19 @@
+name: preKd
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - rdkit
+  - scikit-learn
+  - tqdm
+  - cudatoolkit
+  - ipykernel
+  - jupyterlab
+  - tensorflow=2.14
+  - pip
+  - pip:
+    - nfp
+    - tensorflow-addons
